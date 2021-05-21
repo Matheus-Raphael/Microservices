@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enderecos.Application\Enderecos.Application.csproj" />
+    <ProjectReference Include="..\Enderecos.Data.Infra\Enderecos.Data.Infra.csproj" />
+    <ProjectReference Include="..\Enderecos.Data.Persistence\Enderecos.Data.Persistence.csproj" />
+    <ProjectReference Include="..\Enderecos.Domain\Enderecos.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enderecos.Application\Enderecos.Application.csproj" />
+    <ProjectReference Include="..\Enderecos.Data.Infra\Enderecos.Data.Infra.csproj" />
+    <ProjectReference Include="..\Enderecos.Domain\Enderecos.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
